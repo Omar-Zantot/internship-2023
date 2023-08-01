@@ -4,16 +4,22 @@ function selectElementByClass(className) {
 
 const sections = [
   selectElementByClass("home"),
-  selectElementByClass("about"),
-  selectElementByClass("services"),
-  selectElementByClass("contact"),
+  selectElementByClass("mohamed"),
+  selectElementByClass("omar"),
+  selectElementByClass("bavly"),
+  selectElementByClass("lamya"),
+  selectElementByClass("farida"),
+  selectElementByClass("nada"),
 ];
 
 const navItems = {
   home: selectElementByClass("homeNavItem"),
-  about: selectElementByClass("aboutNavItem"),
-  services: selectElementByClass("servicesNavItem"),
-  contact: selectElementByClass("contactNavItem"),
+  mohamed: selectElementByClass("mohamedNavItem"),
+  omar: selectElementByClass("omarNavItem"),
+  bavly: selectElementByClass("bavlyNavItem"),
+  lamya: selectElementByClass("lamyaNavItem"),
+  farida: selectElementByClass("faridaNavItem"),
+  nada: selectElementByClass("nadaNavItem"),
 };
 
 // intersection observer setup
